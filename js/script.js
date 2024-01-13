@@ -58,6 +58,12 @@ nav.forEach((li) => {
     })
 });
 
+let comece = document.querySelector('#js-comece')
+
+comece.addEventListener('click', () => {
+  closeOpenMenu();
+})
+
 // LENIS SMOOTH SCROLL
 let lenis;
 if (Webflow.env("editor") === undefined) {
@@ -150,7 +156,6 @@ menu.addEventListener('click', () => {
 
 
 window.addEventListener('scroll', function () {
-  console.log('window.innerHeight')
   var nav = document.querySelector('header');
   var offset = 110; // Meio da janela
 
