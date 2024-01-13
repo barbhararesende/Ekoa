@@ -406,7 +406,7 @@ body {
 
                             h2 {
                                 color: var(--color-brand-01);
-                                font-family: Owners TRIAL Wide;
+                                font-family: Owners TRIAL Wide, sans-serif;
                                 font-size: 40px;
                                 font-style: normal;
                                 font-weight: 700;
@@ -982,7 +982,7 @@ body {
 
             h3 {
                 color: var(--color-brand-02);
-                font-family: 'Owners TRIAL Wide';
+                font-family: 'Owners TRIAL Wide', sans-serif;
                 font-size: 3.2rem;
                 font-weight: 700;
                 white-space: nowrap;
@@ -1024,7 +1024,7 @@ body {
         z-index: 1;
         position: absolute;
         color: rgba(250, 243, 237, 0.8);
-        font-family: 'Owners TRIAL Wide';
+        font-family: 'Owners TRIAL Wide', sans-serif;
         font-size: 50px;
         font-style: normal;
         font-weight: 700;
@@ -1084,7 +1084,7 @@ footer {
             h3 {
                 max-width: 46rem;
                 color: #C4F14F;
-                font-family: 'Owners TRIAL Wide';
+                font-family: 'Owners TRIAL Wide', sans-serif;
                 font-size: 4rem;
                 font-style: normal;
                 font-weight: 700;
@@ -1141,7 +1141,7 @@ footer {
                         display: flex;
                         align-items: center;
                         gap: 1.6rem;
-                        color: #d9ddd4;
+                        color: #d9ddd4 !important;
                         font-family: 'Instrument Sans', sans-serif;
                         font-size: 1.6rem;
                         line-height: 150%;
@@ -1246,7 +1246,7 @@ footer {
 
         h2 {
             color: var(--color-brand-01);
-            font-family: 'Owners TRIAL Wide';
+            font-family: 'Owners TRIAL Wide', sans-serif;
             font-size: 4.8rem;
             font-weight: 700;
             margin-bottom: 8rem;
@@ -1458,7 +1458,7 @@ footer {
             }
 
             h2 {
-                font-family: 'Owners TRIAL Wide';
+                font-family: 'Owners TRIAL Wide', sans-serif;
                 font-size: 5.6rem;
                 font-weight: bold;
                 line-height: 120%;
@@ -1484,7 +1484,7 @@ footer {
             .item {
                 width: 100%;
                 max-width: 600px;
-                font-family: 'Owners TRIAL XXNarrow';
+                font-family: 'Owners TRIAL XXNarrow', sans-serif;
                 font-size: 3.2rem;
                 text-transform: uppercase;
                 font-weight: 700;
